@@ -1,0 +1,26 @@
+// Source: mfaisalkhatri/appium-java-examples
+// Full source:
+// https://github.com/mfaisalkhatri/appium-java-examples/blob/main/src/test/java/io/github/mfaisalkhatri/ios/paralleltests/pages/FormPage.java
+
+private WebElement switchBtn() {
+    return this.iosDriver.findElement(AppiumBy.accessibilityId("switch"));
+}
+
+public String getSwitchText() {
+    return this.iosDriver.findElement(AppiumBy.accessibilityId("switch-text")).getText();
+}
+
+private void selectDropdownValue(final String option) {
+    this.iosDriver.findElement(
+        AppiumBy.iOSClassChain(
+            "**/XCUIElementTypePickerWheel[`value == \\\"Select an item...\\\"`]")
+    ).sendKeys(option);
+}
+
+public void fillForm(final String input, final String option) {
+    inputField().sendKeys(input);
+    switchBtn().click();
+    dropdownField().click();
+    selectDropdownValue(option);
+    doneBtn().click();
+}

@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-09-11T04:16:34.793439+00:00",
+  "purpose": "Fresh GitHub testing/automation tool collection with source-backed snippets and provenance.",
+  "items": [
+    {
+      "tool": "Playwright CLI",
+      "repo": "microsoft/playwright-cli",
+      "category": "agentic browser automation",
+      "freshness": "2026 documentation/repo",
+      "source": "https://github.com/microsoft/playwright-cli"
+    },
+    {
+      "tool": "AI Browser Tester",
+      "repo": "Ryn-Mic/ai-browser-tester",
+      "category": "MCP-first browser testing",
+      "freshness": "live test evidence dated 2026-07-10",
+      "source": "https://github.com/Ryn-Mic/ai-browser-tester"
+    },
+    {
+      "tool": "loadam",
+      "repo": "DesmondSanctity/loadam",
+      "category": "OpenAPI -> k6 + Schemathesis + MCP + drift",
+      "freshness": "README documents 0.2.4 (2026-05-02 changelog entry)",
+      "source": "https://github.com/DesmondSanctity/loadam"
+    },
+    {
+      "tool": "Schemathesis",
+      "repo": "schemathesis/schemathesis",
+      "category": "property-based API testing",
+      "freshness": "actively maintained current repo",
+      "source": "https://github.com/schemathesis/schemathesis"
+    },
+    {
+      "tool": "k6",
+      "repo": "grafana/k6",
+      "category": "load/performance testing",
+      "freshness": "v2.0.0 released 2026-05-11",
+      "source": "https://github.com/grafana/k6"
+    },
+    {
+      "tool": "StrykerJS",
+      "repo": "stryker-mutator/stryker-js",
+      "category": "mutation testing",
+      "freshness": "9.6.1 released 2026-04-10",
+      "source": "https://github.com/stryker-mutator/stryker-js"
+    },
+    {
+      "tool": "Vitest",
+      "repo": "vitest-dev/vitest",
+      "category": "unit/component/browser testing",
+      "freshness": "current repo, browser mode",
+      "source": "https://github.com/vitest-dev/vitest"
+    },
+    {
+      "tool": "PactFlow Drift",
+      "repo": "pactflow/example-bi-directional-provider-drift",
+      "category": "bidirectional contract testing",
+      "freshness": "active example with 2026 roadmap context",
+      "source": "https://github.com/pactflow/example-bi-directional-provider-drift"
+    },
+    {
+      "tool": "Hypothesis",
+      "repo": "HypothesisWorks/hypothesis",
+      "category": "property-based testing",
+      "freshness": "current maintained project",
+      "source": "https://github.com/HypothesisWorks/hypothesis"
+    },
+    {
+      "tool": "BackstopJS",
+      "repo": "garris/BackstopJS",
+      "category": "visual regression testing",
+      "freshness": "current maintained project",
+      "source": "https://github.com/garris/BackstopJS"
+    },
+    {
+      "tool": "Tyche",
+      "repo": "tyche-pbt/tyche-extension",
+      "category": "property-based test observability",
+      "freshness": "research/extension project",
+      "source": "https://github.com/tyche-pbt/tyche-extension"
+    },
+    {
+      "tool": "OpenAPI Spec Starter",
+      "repo": "virus5945/openapi-spec-starter",
+      "category": "contract testing + CI + fuzzing",
+      "freshness": "current repository",
+      "source": "https://github.com/virus5945/openapi-spec-starter"
+    }
+  ]
+}

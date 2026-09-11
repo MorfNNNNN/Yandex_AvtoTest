@@ -1,0 +1,33 @@
+// Source: neiljbrown/restassured-example
+// Full source:
+// https://github.com/neiljbrown/restassured-example/blob/master/src/test/java/com/neiljbrown/service/user/GetRealmApiTest.java
+// Representative fragment captured from the repository:
+
+RestAssured
+  .given()
+    .pathParam(UserRealmApiConstants.REALM_ID_PATH_VAR_NAME, 1)
+  .when()
+    .post()
+  .then()
+    .assertThat().statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED)
+    .body(isEmptyOrNullString());
+
+RestAssured
+  .given()
+    .accept(ContentType.APPLICATION_JSON.getMimeType())
+    .pathParam(UserRealmApiConstants.REALM_ID_PATH_VAR_NAME, 1)
+  .when()
+    .get()
+  .then()
+    .assertThat().statusCode(HttpStatus.SC_NOT_ACCEPTABLE)
+    .body(isEmptyOrNullString());
+
+RestAssured
+  .given()
+    .pathParam(UserRealmApiConstants.REALM_ID_PATH_VAR_NAME, realmId)
+  .when()
+    .get()
+  .then()
+    .assertThat().statusCode(HttpStatus.SC_BAD_REQUEST)
+    .body("error.code", equalTo("InvalidRealmId"),
+          "error.message", equalTo("Invalid realm id [" + realmId + "]."));

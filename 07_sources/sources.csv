@@ -1,0 +1,11 @@
+category,repository,source_file,github_url,notes
+Playwright,blueimp/playwright-example,test/spec/mail.spec.ts,https://github.com/blueimp/playwright-example/blob/main/test/spec/mail.spec.ts,E2E; fixtures; assertions; Page Object usage; unicode case
+Selenium Java,willysalazar/selenium-webdriver-java-example,src/test/java/com/willysalazar/example/AbTest.java,https://github.com/willysalazar/selenium-webdriver-java-example/blob/master/src/test/java/com/willysalazar/example/AbTest.java,TestNG; Page Object; logging; assertion
+Cypress,mtlynch/hello-world-cypress,e2e/cypress/integration/spec.js,https://github.com/mtlynch/hello-world-cypress/blob/master/e2e/cypress/integration/spec.js,E2E; form interaction; DOM assertions
+pytest API,ibalagurov/api_tests_example,tests/test_disk.py,https://github.com/ibalagurov/api_tests_example/blob/master/tests/test_disk.py,pytest; Allure; auth cases; parametrization
+REST Assured,neiljbrown/restassured-example,src/test/java/com/neiljbrown/service/user/GetRealmApiTest.java,https://github.com/neiljbrown/restassured-example/blob/master/src/test/java/com/neiljbrown/service/user/GetRealmApiTest.java,REST Assured; JUnit; WireMock; positive/negative API cases
+Appium Java,mfaisalkhatri/appium-java-examples,src/test/java/io/github/mfaisalkhatri/ios/paralleltests/pages/FormPage.java,https://github.com/mfaisalkhatri/appium-java-examples/blob/main/src/test/java/io/github/mfaisalkhatri/ios/paralleltests/pages/FormPage.java,Appium; iOS; accessibilityId; iOS class chain
+Playwright recipes,elaichenkov/playwright-example-recipes,repository,https://github.com/elaichenkov/playwright-example-recipes,Additional recipes
+Selenium Python,AutomationPanda/tau-intro-selenium-py,repository,https://github.com/AutomationPanda/tau-intro-selenium-py,Python; Selenium WebDriver; pytest course framework
+Cypress DB,mvsaran/Cypress-Database-Testing,repository,https://github.com/mvsaran/Cypress-Database-Testing,Cypress + database testing
+WebdriverIO + Appium,ShablaLab/webdriverio-appium-flutter-example,repository,https://github.com/ShablaLab/webdriverio-appium-flutter-example,Mobile UI automation
